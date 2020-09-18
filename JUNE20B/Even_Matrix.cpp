@@ -8,7 +8,7 @@ void evenmatrix(int N)
     int ra[N * N + 1] = {0};
     for (int i = 0; i < N * N; i++)
         ra[i] = i + 1;
-    vector<vector<int> > a;
+    vector<vector<int>> a;
     int k = 0;
     if (N % 2 != 0)
     {
